@@ -1,5 +1,6 @@
-git+https://github.com/openai/whisper.git
+openai-whisper
 pyannote.audio==3.1.1
 torch
 torchaudio
 huggingface_hub
+sentencepiece @ git+https://github.com/google/sentencepiece.git
