@@ -3,4 +3,4 @@ pyannote.audio==3.1.1
 torch
 torchaudio
 huggingface_hub
-sentencepiece @ git+https://github.com/google/sentencepiece.git
+sentencepiece @ git+https://github.com/google/sentencepiece.git#subdirectory=python
