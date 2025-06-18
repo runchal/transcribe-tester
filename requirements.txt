@@ -1,6 +1,20 @@
-openai-whisper
+# Audio transcription and processing
+faster-whisper
+ctranslate2
 pyannote.audio==3.1.1
-torch
-torchaudio
+
+# PyTorch ecosystem - using stable versions
+torch==2.7.1
+torchaudio==2.7.1
+
+# Hugging Face and supporting libraries
 huggingface_hub
-sentencepiece @ git+https://github.com/google/sentencepiece.git#subdirectory=python
+transformers==4.42.1
+
+# SentencePiece - using PyPI version instead of Git
+sentencepiece
+
+# Additional dependencies often needed
+numpy
+scipy
+librosa

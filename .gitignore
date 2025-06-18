@@ -1,1 +1,52 @@
 .aider*
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Audio/video sample files
+sample files/
+samples/
+*.wav
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.m4a
+*.flac
+
+# Model cache
+.cache/
+models/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Output files
+output/
+transcriptions/
+results/
